@@ -77,3 +77,7 @@ $RECYCLE.BIN/
 #**/installedPackages/**
 #**/dashboards/**
 #**/reports/**
+.agentia/config.user.json
+.agentia/idex
+.agentia/apex.tests.*.json
+.agents/
