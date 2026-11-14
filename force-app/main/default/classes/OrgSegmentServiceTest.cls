@@ -30,7 +30,7 @@ private class OrgSegmentServiceTest {
     static void testStartupBoundaries() {
         Test.startTest();
         String segmentUpperBoundary = OrgSegmentService.calculateSegment(999999);
-        String segmentNull = OrgSegmentService.calculateSegment(null);
+        String segmentNull = OrgSegmentService.calculateSegment((Decimal) null);
         String segmentZero = OrgSegmentService.calculateSegment(0);
         String segmentNegative = OrgSegmentService.calculateSegment(-100);
         Test.stopTest();
